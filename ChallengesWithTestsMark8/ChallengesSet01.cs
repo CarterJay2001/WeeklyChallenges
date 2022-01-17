@@ -21,6 +21,7 @@ namespace ChallengesWithTestsMark8
             //throw new NotImplementedException();
 
             return minuend - subtrahend;
+
         }
 
         public int Add(int number1, int number2)
@@ -28,6 +29,7 @@ namespace ChallengesWithTestsMark8
             //throw new NotImplementedException();
 
             return number1 + number2;
+
         }
 
         public int GetSmallestNumber(int number1, int number2)
@@ -42,6 +44,7 @@ namespace ChallengesWithTestsMark8
             {
                 return number2;
             }
+
         }
 
         public long Multiply(long factor1, long factor2)
@@ -49,6 +52,7 @@ namespace ChallengesWithTestsMark8
             //throw new NotImplementedException();
 
             return factor1 * factor2;
+
         }
 
         public string GetGreeting(string nameOfPerson)
@@ -63,6 +67,7 @@ namespace ChallengesWithTestsMark8
             {
                 return $"Hello, {nameOfPerson}!";
             }
+
         }
 
         public string GetHey()
@@ -70,6 +75,7 @@ namespace ChallengesWithTestsMark8
             //throw new NotImplementedException();
 
             return "HEY!";
+
         }
     }
 }
