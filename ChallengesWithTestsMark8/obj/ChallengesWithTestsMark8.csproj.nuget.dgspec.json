@@ -13,6 +13,9 @@
         "packagesPath": "/Users/cayloncarter/.nuget/packages/",
         "outputPath": "/Users/cayloncarter/Desktop/GitHub/Repos/Csharp-23/WeeklyChallenges/ChallengesWithTestsMark8/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/Users/cayloncarter/.config/NuGet/NuGet.Config"
         ],
@@ -52,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
         }
       }
     }

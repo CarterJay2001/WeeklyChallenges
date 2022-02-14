@@ -8,29 +8,27 @@ namespace ChallengesWithTestsMark8
     {
         public bool CharacterIsALetter(char c)
         {
-            var alphabet = "abcdefghijklmnopqrstuvwxyz";
-            return (alphabet.Contains(c.ToString().ToLower())) ? true : false;
+            return char.IsLetter(c);
         }
 
         public bool CountOfElementsIsEven(string[] vals)
         {
-            return vals.Length % 2 == 0 ? true : false;
+            return vals.Length % 2 == 0;
         }
 
         public bool IsNumberEven(int number)
         {
-            return number % 2 == 0 ? true : false;
+            return number % 2 == 0;
         }
 
         public bool IsNumberOdd(int num)
         {
-            return Math.Abs(num) % 2 == 1 ? true : false;
+            return Math.Abs(num) % 2 == 1;
         }
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
         {
             return (numbers == null || numbers.Count() == 0) ? 0 : numbers.Min() + numbers.Max();
-
         }
 
         public int GetLengthOfShortestString(string str1, string str2)
@@ -62,7 +60,7 @@ namespace ChallengesWithTestsMark8
 
         public bool IsSumOdd(List<int> numbers)
         {
-            return numbers == null ? false : (Math.Abs(numbers.Sum()) % 2 == 1) ? true : false;
+            return numbers == null ? false : (Math.Abs(numbers.Sum()) % 2 == 1);
         }
 
         public long CountOfPositiveOddsBelowNumber(long number)

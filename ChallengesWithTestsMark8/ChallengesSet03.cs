@@ -26,7 +26,7 @@ namespace ChallengesWithTestsMark8
             }
             var sum = numbers.Sum();
             sum = Math.Abs(sum);
-            return (sum % 2 == 1) ? true : false;
+            return (sum % 2 == 1);
         }
 
         public bool PasswordContainsUpperLowerAndNumber(string password)
@@ -53,14 +53,7 @@ namespace ChallengesWithTestsMark8
                     count[2]++;
                 }
             }
-            if (count[0] > 0 && count[1] > 0 && count[2] > 0)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return count[0] > 0 && count[1] > 0 && count[2] > 0 ? true : false;
         }
 
         public char GetFirstLetterOfString(string val)
@@ -84,11 +77,7 @@ namespace ChallengesWithTestsMark8
 
         public decimal Divide(decimal dividend, decimal divisor)
         {
-            if (divisor == 0)
-            {
-                return 0;
-            }
-            return dividend / divisor;
+            return divisor == 0 ? 0 : dividend / divisor;
         }
 
         public int LastMinusFirst(int[] nums)
